@@ -1,0 +1,17 @@
+// wap to calc the sum of digits of a number using recursion.
+#include<stdio.h>
+#include<conio.h>
+int sumOfDigit(int n)
+{
+    if(n<10)
+    return n;
+    else
+    return n%10+sumOfDigit(n/10);
+}
+int main()
+{
+    int n;
+    printf("enter a number:");
+    scanf("%d",&n);
+    printf("\nSum Of Digits of %d is : %d",n,sumOfDigit(n));
+}

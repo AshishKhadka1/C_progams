@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int product(int a, int b)
+{
+    if(b>=1)
+    return a+product(a,b-1)
+    else
+    return 0;
+}
+void main()
+{
+    int n;
+    printf("Enter a number:");
+    scanf("%d",&n);
+    printf("\n product of digits of %d is :",n,product(n));
+    getch();
+}
