@@ -20,3 +20,5 @@ int main()
     printf("%d found at position %d",key,found+1);
     return 0;
 }
+
+
