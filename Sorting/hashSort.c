@@ -19,7 +19,7 @@ void bucketSort(int arr[], int n) {
 
     // Create an array of buckets
     int* buckets = (int*)malloc((max + 1) * sizeof(int));
-    if (buckets == NULL) {
+    if (buckets == NULL) { 
         perror("Memory allocation failed");
         exit(EXIT_FAILURE);
     }

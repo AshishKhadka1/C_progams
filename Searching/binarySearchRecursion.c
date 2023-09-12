@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // Function to perform binary search recursively
 int binarySearch(int arr[], int left, int right, int target) {
